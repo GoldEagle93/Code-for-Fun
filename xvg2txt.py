@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+"""
+I wanted to be able to use Gromacs xvg files in Apple's Numbers app for plotting.
+The app didn't support defining delimination parameters (comma, space, tab, etc.)
+then, So I made this to do the job.
+"""
+
 import fileinput
 import sys
 
