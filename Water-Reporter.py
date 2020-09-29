@@ -1,3 +1,9 @@
+"""
+For a research project we wanted to count the number of water molecules inside a water channel in the cellular membrane.
+This script will determine the number of water molecules between the extra- and intra- cellular planes of the membrane.
+Since water doesn't penetrate the membrane, that number corresponds to the number of molecules inside the channel.
+"""
+
 import fileinput
 import sys
 count=0
