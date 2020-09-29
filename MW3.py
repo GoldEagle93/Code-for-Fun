@@ -1,3 +1,19 @@
+"""
+Several years ago I used to play Call of Duty Modern Warfare 3
+on a local network with some friends. The games reads a .dspl file
+in which each line defines three parameters:
+1. Type of game,
+2. Map,
+3. Probability of that combination.
+
+The game didn't do a good job at choosing lines randomly when all
+the probabilities were equal. So I made this script which would
+generate a new .dspl file with random combinations of maps and
+game types for one game session. Every night we wanted to play
+I got a new .dspl file from this script and the randomness was
+guaranteed!
+"""
+
 import random
 
 firstPart=[ 'mp_alpha',         'mp_bootleg',       'mp_bravo',         'mp_carbon',        'mp_dome',          'mp_exchange',
